@@ -45,7 +45,7 @@ jobs:
       - name: Create Certificates
         run: bundle exec fastlane certs
         env:
-          TEAMID: ${{ secrets.TEAMID }}
+          TEAMID: ${{ secrets.G992U9N75V }}
           GH_PAT: ${{ secrets.GH_PAT }}
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
           FASTLANE_KEY_ID: ${{ secrets.FASTLANE_KEY_ID }}
